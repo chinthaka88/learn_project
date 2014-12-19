@@ -10,6 +10,6 @@ namespace Entity
     {
         public int ID { get; set; }
         public string Name { get; set; }
-        public virtual ICollection<ShippingItem> ShippingItems { get; set; }
+        public virtual ICollection<ShippingCompanyItem> ShippingItems { get; set; }
     }
 }

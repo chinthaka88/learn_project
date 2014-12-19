@@ -22,8 +22,8 @@ namespace Entity
 
         public virtual Category Categorys { get; set; }
         public virtual ICollection<ItemWishList> ItemWishLists { get; set; }
-        public virtual seller sellers { get; set; }
-        public virtual ICollection<ShippingItem> ShippingItems { get; set; }
+        public virtual Seller sellers { get; set; }
+        public virtual ICollection<ShippingCompanyItem> ShippingItems { get; set; }
         public virtual ICollection<OrderItem> OrderItems { get; set; }
         public virtual ICollection<ViewCount> ViewCounts { get; set; }
         
